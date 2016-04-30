@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>I make websites. Pretty good ones. ~ Bartosz Cytrowski's web development playground</title>
+    <style>
+     .logo {
+       font-size: 3.5em;
+       position: relative;
+       width: 1em;
+       height: 1em;
+       margin: 2em auto;
+     }
+     .logo div {
+       width:0em;
+       height:0em;
+       position:absolute;
+     }
+     .logo > div {
+       top:0em;
+       border-top:0.5em solid transparent; 
+       border-bottom:0.5em solid transparent;
+       left:0em;
+
+       margin-left:0.5em;
+       border-left:0.5em solid #ddd;
+     }
+     .logo > div:first-child {
+       border-right:0.5em solid #777;
+       margin-left: 0em;
+       border-left: 0em;
+     }
+     .logo > div div {
+       top:-0.2em;
+       border-top:0.2em solid transparent; 
+       border-bottom:0.2em solid transparent;
+       right:0.3em;
+       border-left:0.2em solid #777;
+     }
+
+     .logo > div:first-child div {
+       left:0.3em;
+       border-right:0.2em solid #ddd;
+       border-left: 0em;
+     }
+
+     @font-face {
+       font-family: 'Open Sans Condensed';
+       font-style: normal;
+       font-weight: 300;
+       src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/gk5FxslNkTTHtojXrkp-xICtgNwyJYHzDAjKtI5LRRA.woff) format('woff');
+     }
+     @font-face {
+       font-family: 'Ubuntu Condensed';
+       font-style: normal;
+       font-weight: 400;
+       src: local('Ubuntu Condensed'), local('UbuntuCondensed-Regular'), url(http://themes.googleusercontent.com/static/fonts/ubuntucondensed/v3/DBCt-NXN57MTAFjitYxdrK8NE7_Gi-Xz52ZQ_AwfA78.woff) format('woff');
+     }
+
+     h1 {
+       text-align: center;
+       font-family: Ubuntu Condensed, Arial, sans-serif;
+       font-weight: 400;
+     }
+
+     p {
+       text-align: center;
+       font-family: Open Sans Condensed, Arial, sans-serif;
+       font-weight: 300;
+     }
+     a {
+       color: #369;
+       text-decoration: none;
+       font-size: 1.2em;
+       letter-spacing: 0.1em;
+     }
+     .meta {
+       width: 300px;
+       margin: 10px auto;
+       padding-top: 20px;
+       border-top: 1px solid #ddd;
+       font-size: 0.9em;
+       color: #777;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+      <div><div></div></div>
+      <div><div></div></div>
+    </div>
+
+    <h1>I make websites. Pretty good ones.</h1>
+
+    <p>
+      My name is Bartosz Cytrowski. I can design &amp; code some stuff for you &mdash; just ask: <br />
+      <a href="mailto:bartosz.cytrowski+ineedawebsite@gmail.com">bartosz.cytrowski+ineedawebsite@gmail.com</a>
+    </p>
+
+    <p class="meta">
+      I am currently unhireable - I do not code for money.<br />
+      You bring the idea. We discuss. I pick and code it for fun or not.<br />
+      It cannot be simpler :)
+    </p>
+  </body>
+</html>
