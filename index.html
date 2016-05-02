@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel='shortcut icon' type='image/x-icon' href='http://www.cytrowski.com/favicon.ico?v=2' />
+    <link rel='shortcut icon' type='image/x-icon' href='http://www.cytrowski.com/favicon.ico' />
     <title>I make websites. Pretty good ones. ~ Bartosz Cytrowski's web development playground</title>
     <style>
      .logo {
@@ -11,38 +11,6 @@
        width: 1em;
        height: 1em;
        margin: 2em auto;
-     }
-     .logo div {
-       width:0em;
-       height:0em;
-       position:absolute;
-     }
-     .logo > div {
-       top:0em;
-       border-top:0.5em solid transparent; 
-       border-bottom:0.5em solid transparent;
-       left:0em;
-
-       margin-left:0.5em;
-       border-left:0.5em solid #ddd;
-     }
-     .logo > div:first-child {
-       border-right:0.5em solid #777;
-       margin-left: 0em;
-       border-left: 0em;
-     }
-     .logo > div div {
-       top:-0.2em;
-       border-top:0.2em solid transparent; 
-       border-bottom:0.2em solid transparent;
-       right:0.3em;
-       border-left:0.2em solid #777;
-     }
-
-     .logo > div:first-child div {
-       left:0.3em;
-       border-right:0.2em solid #ddd;
-       border-left: 0em;
      }
 
      @font-face {
@@ -87,8 +55,7 @@
   </head>
   <body>
     <div class="logo">
-      <div><div></div></div>
-      <div><div></div></div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"><path d="M25 0L10 15 0 25l10 10 15 15V34.987l-10-10 10-10z" fill="#777"/><path d="M25-.013l15 15 10 10-10 10-15 15v-15l10-10-10-10z" fill="#ddd"/><path d="M25 14.987v20l10-10z" fill="#777"/><path d="M25 14.987v20l-10-10z" fill="#ddd"/></svg>
     </div>
 
     <h1>I make websites. Pretty good ones.</h1>
